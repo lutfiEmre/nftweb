@@ -7,14 +7,14 @@ import Image from "next/image";
 
 const TurnLife = () => {
     return (
-        <div className={"ml-[15vw] flex flex-row gap-[50px] mt-[7vw]"}>
+        <div className={" ml-[10vw] 3xl:ml-0 xl:ml-[15vw] flex flex-col-reverse lg:flex-row 3xl:justify-center justify-start items-center gap-[0px] xl:gap-[50px] 3xl:gap-[100px] 2xl:gap-[100px] mt-[7vw]"}>
             <div className={"flex flex-col gap-[40px]"}>
-                <h4 className={"jost-bold leading-[80px] text-white text-[72px]"}>
+                <h4 className={"jost-bold leading-[80px] text-white text-[64px] lg:text-[50px] 2xl:text-[72px]"}>
                     TURN LIFE
                     <br />
                     INTO THE <span className={"text-[#FF00CC]"}>GAME</span>
                 </h4>
-                <h6 className={"rubik-regular text-[24px] text-white w-[685px]"}>
+                <h6 className={"rubik-regular text-[20px] lg:text-[20px]  2xl:text-[24px] text-white lg:w-[450px] 2xl:w-[685px]"}>
                     Welcome to Activate Earth—a groundbreaking platform for brands,
                     businesses, and creatives! As pioneers in experience-based
                     advertising, we help you tell your story interactively and
@@ -26,10 +26,10 @@ const TurnLife = () => {
                     </h6>
                 </div>
             </div>
-            <div className={"relative scale-75 -mt-[125px]"}>
+            <div className={"relative 3xl:scale-100 lg:scale-75 lg:-mt-[125px]"}>
                 {/* Ana animasyon */}
                 <motion.div
-                    className={"w-[347px] relative"}
+                    className={" w-[150px] lg:w-[347px] relative"}
                     animate={{
                         y: [0, -20, 0, 20, 0], // Dalgalı hareket yukarı-aşağı
                         rotate: [0, -5, 5, -5, 0], // Hafif dönme
@@ -57,7 +57,7 @@ const TurnLife = () => {
                     >
                         <Image
                             className={
-                                "w-[600px] h-[500px] object-cover opacity-90 absolute left-[-50px] top-[15%]"
+                                " w-[350px] lg:w-[600px]  h -[350px] lg:h-[500px] object-cover opacity-90 absolute left-[-50px] top-[15%]"
                             }
                             width={286}
                             height={334}
