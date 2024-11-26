@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        violet3: "#06000E",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
