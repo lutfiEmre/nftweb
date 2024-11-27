@@ -38,7 +38,7 @@ const TurnLife = () => {
     };
 
     return (
-        <div className="min-h-[70vh] flex flex-col-reverse mb-[100px] lg:flex-row justify-center items-center gap-[0px] xl:gap-[150px] mt-[7vw] 2xl:mt-[2vw]">
+        <div className="min-h-[70vh] flex flex-col-reverse  mb-[100px] lg:flex-row justify-center items-center gap-[100px] xl:gap-[150px]  mt-[1vw] lg:mt-[7vw] 2xl:mt-[2vw]">
             <div className="flex flex-col gap-[40px]">
                 <motion.h4
                     className="jost-bold leading-[1.2em] text-white sm:text-start text-center text-[64px] lg:text-[50px]"
@@ -70,15 +70,17 @@ const TurnLife = () => {
             </div>
 
 
-            <div className="relative w-fit flex justify-center items-center">
+            <div className="relative  w-fit flex justify-center items-center">
 
                 <motion.div
-                    className="absolute z-20 w-[150px] lg:w-[600px] h-[250px] lg:h-[500px] object-cover"
+                    className="absolute z-20 w-[150px] lg:w-[400px] lg:h-[400px] 2xl:w-[600px] h-[250px] 2xl:h-[500px] object-cover"
                     animate={{
-                        rotate: [0, 360], // Sürekli döner
+                        rotate: [0, 360],
+                        x: [-100, -50, 0, -50, -100],
+                        y: [-100, -50, 0, -50, -100],
                     }}
                     transition={{
-                        duration: 10,
+                        duration: 5,
                         repeat: Infinity,
                         ease: "linear",
                     }}
@@ -92,7 +94,7 @@ const TurnLife = () => {
                     />
                 </motion.div>
 
-                {/* Container Element */}
+
                 <motion.div
                     className="relative w-[200px] lg:w-[347px]"
                     style={containerStyle}
@@ -105,11 +107,11 @@ const TurnLife = () => {
                     />
                 </motion.div>
 
-                {/* Scroll Tabanlı Patlama Efektleri */}
+
                 {[...Array(5)].map((_, index) => (
                     <motion.div
                         key={index}
-                        className="absolute bg-[#FF00CC] rounded-full"
+                        className="absolute mt-[500px] bg-[#FF00CC] rounded-full"
                         style={{
                             width: `${30 + index * 10}px`,
                             height: `${30 + index * 10}px`,

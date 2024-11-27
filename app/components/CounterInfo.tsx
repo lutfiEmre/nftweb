@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-// Custom Hook for Counter Animation
+
 const useCounter = (endValue: number, duration: number) => {
     const [count, setCount] = useState(0);
 
@@ -34,7 +34,7 @@ const CounterInfo = () => {
         { value: 1.04, label: "Advertisement Volume", suffix: "B", prefix: "$" },
     ];
 
-    // Predefine Hook Results
+
     const counts = [
         useCounter(98, 2),
         useCounter(1207, 2),

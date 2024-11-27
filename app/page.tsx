@@ -14,15 +14,15 @@ import ExclusiveNFT from "@/app/components/ExclusiveNFT";
 
 const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
     const [ref, inView] = useInView({
-        threshold: 0.12, // Görünürlük yüzdesi
-        triggerOnce: true, // Sadece bir kez tetikler
+        threshold: 0.2,
+        triggerOnce: true,
     });
 
     return (
         <motion.div
             ref={ref}
-            initial={{ opacity: 0, y: 50 }} // İlk durum
-            animate={inView ? { opacity: 1, y: 0 } : {}} // Görünürse animasyon
+            initial={{ opacity: 0, y: 50 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}} //
             transition={{ duration: 1, ease: "easeOut" }}
         >
             {children}
@@ -33,9 +33,11 @@ const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
 export default function Home() {
     return (
         <div className="w-full relative z-10 h-full min-h-screen bg-violet3">
-            {/* Üst kısım */}
+
             <div className="relative min-h-screen w-full">
-                <NavBar />
+                <SectionWithAnimation>
+                    <NavBar/>
+                </SectionWithAnimation>
                 <Container>
                     <SectionWithAnimation>
                         <TurnLife />
@@ -52,12 +54,12 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* CounterInfo animasyonlu */}
+
             <SectionWithAnimation>
                 <CounterInfo />
             </SectionWithAnimation>
 
-            {/* EarnFrom animasyonlu */}
+
             <Container>
                 <SectionWithAnimation>
                     <EarnFrom />
@@ -70,7 +72,7 @@ export default function Home() {
                 </SectionWithAnimation>
             </Container>
 
-            {/* Ek boş alan */}
+
             <div className="w-full h-[500px]"></div>
         </div>
     );

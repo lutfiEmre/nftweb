@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className={'flex flex-row w-full justify-center items-center lg:items-start lg:justify-start'}>
             <div className={'pt-[40px] flex md:flex-col w-fit lg:w-full flex-col gap-[50px] lg:flex-row justify-between items-center mx-[25px]'}>
                 <Image width={317} height={43} src={logosvg} alt={'activ8earth'}/>
-                <div className={'flex flex-wrap sm:flex-now justify-center flex-row gap-[48px] items-center'}>
+                <div className={'grid grid-cols-2 xl:grid-cols-4  sm:flex flex-wrap sm:flex-nowrap justify-center flex-row gap-[48px] items-center'}>
                     <h6 className={'rubik-medium text-[20px] text-white'}>
                         About
                     </h6>
