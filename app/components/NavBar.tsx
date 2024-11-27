@@ -22,9 +22,9 @@ const NavBar = () => {
                         Faq
                     </h6>
                 </div>
-                <div className={'px-[33px] w-full lg:w-fit py-[16px] bg1'}>
+                <div className={'px-[33px] w-full text-center lg:w-fit py-[16px] bg1'}>
                     <h6 className={'rubik-medium text-[16px] text-white'}>
-                        Button Text
+                        Entire The World!
                     </h6>
                 </div>
             </div>
