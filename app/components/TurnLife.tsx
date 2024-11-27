@@ -10,7 +10,7 @@ const TurnLife = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrollY(window.scrollY); // Scroll pozisyonunu güncelle
+            setScrollY(window.scrollY);
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -19,10 +19,10 @@ const TurnLife = () => {
         };
     }, []);
 
-    // Scroll tabanlı animasyon hesaplamaları
+
     const containerStyle = {
-        y: scrollY / 5, // Scroll’a bağlı yukarı kayar
-        opacity: 1 - scrollY / 650, // Scroll ile kaybolur
+        y: scrollY / 5,
+        opacity: 1 - scrollY / 650,
     };
 
     const explosionVariants = {
@@ -39,7 +39,6 @@ const TurnLife = () => {
 
     return (
         <div className="min-h-[70vh] flex flex-col-reverse mb-[100px] lg:flex-row justify-center items-center gap-[0px] xl:gap-[150px] mt-[7vw]">
-            {/* Sol içerik */}
             <div className="flex flex-col gap-[40px]">
                 <motion.h4
                     className="jost-bold leading-[1.2em] text-white sm:text-start text-center text-[64px] lg:text-[50px]"
@@ -70,9 +69,9 @@ const TurnLife = () => {
                 </motion.div>
             </div>
 
-            {/* Sağ animasyon alanı */}
-            <div className="relative w-full flex justify-center items-center">
-                {/* Circular Element */}
+
+            <div className="relative w-fit flex justify-center items-center">
+
                 <motion.div
                     className="absolute z-20 w-[150px] lg:w-[600px] h-[250px] lg:h-[500px] object-cover"
                     animate={{
