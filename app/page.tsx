@@ -11,6 +11,11 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ReachWorld from "@/app/components/ReachWorld";
 import ExclusiveNFT from "@/app/components/ExclusiveNFT";
+import FutureMilestones from "@/app/components/FutureMilestones";
+import ExploreOurOffers from "@/app/components/ExploreOurOffers";
+import FindYourAnswers from "@/app/components/FindYourAnswers";
+import MeetTeam from "@/app/components/MeetTeam";
+import Footer from "@/app/components/Footer";
 
 const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
     const [ref, inView] = useInView({
@@ -70,10 +75,25 @@ export default function Home() {
                 <SectionWithAnimation>
                     <ExclusiveNFT/>
                 </SectionWithAnimation>
+                <SectionWithAnimation>
+                    <FutureMilestones/>
+                </SectionWithAnimation>
+                <SectionWithAnimation>
+                    <ExploreOurOffers/>
+                </SectionWithAnimation>
+                <SectionWithAnimation>
+                    <FindYourAnswers/>
+                </SectionWithAnimation>
+                <SectionWithAnimation>
+                    <MeetTeam/>
+                </SectionWithAnimation>
+                <SectionWithAnimation>
+                    <Footer/>
+                </SectionWithAnimation>
             </Container>
 
 
-            <div className="w-full h-[500px]"></div>
+
         </div>
     );
 }

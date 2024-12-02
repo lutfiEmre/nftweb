@@ -9,13 +9,13 @@ import nft4 from '../../public/nft4.svg'
 
 const ExclusiveNFT = () => {
     return (
-        <div className={'mt-[128px] flex flex-col gap-[60px]'}>
+        <div className={'mt-[128px] mb-[198px] flex flex-col gap-[60px]'}>
             <div className={'flex flex-col gap-[16px]'}>
                 <div className={'flex flex-col justify-center text-center items-center'}>
                     <h4 className={'jost-bold text-[48px] text-white'}>
                         Exclusive NFT
 
-                        <span className={'text-[#FF00CC]'}>
+                        <span className={'text-[#FF00CC] sm:ml-4'}>
                         Collection
                     </span>
                     </h4>
