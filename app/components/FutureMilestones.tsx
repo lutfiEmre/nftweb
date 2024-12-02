@@ -28,7 +28,7 @@ const FutureMilestones = () => {
                 <p className={'rubik-regular text-center text-white text-opacity-80 text-[20px]'}>Our Roadmap highlights key milestones, from platform launch and Web3 integration to ACT8 tokens and Activator Gems NFTs. Stay tuned for exciting updates!
                 </p>
             </div>
-            <div className={'flex flex-col gap-8 sm:gap-0  mt-[50px]'}>
+            <div className={'flex flex-col gap-[90px] sm:gap-0  mt-[50px]'}>
                 <div className={'  gap-[64px] flex flex-row '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
