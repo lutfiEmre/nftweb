@@ -35,9 +35,9 @@ const NavBar = () => {
     return (
         <>
             <div
-                className={`flex flex-row sticky ${
+                className={`flex z-50 flex-row sticky ${
                     showBg ? 'bg-violet3' : 'bg-transparent'
-                } pb-4 top-0 left-0 w-full justify-center hidden lg:flex z-0 items-center lg:items-start lg:justify-start`}
+                } pb-4 top-0 left-0 w-full justify-center hidden lg:flex  items-center lg:items-start lg:justify-start`}
             >            <div className={'flex md:flex-col  z-50 pt-[30px] px-4 sm:pt-[20px]  w-fit lg:w-full flex-col gap-[20px] sm:gap-[50px] lg:flex-row justify-between items-center mx-[25px]'}>
                 <div className={'flex flex-row gap-1'}>
                     <motion.div

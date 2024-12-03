@@ -9,7 +9,7 @@ import nft4 from '../../public/nft4.svg'
 
 const ExclusiveNFT = () => {
     return (
-        <div className={'mt-[128px] mb-[198px] flex flex-col gap-[60px]'}>
+        <div className={'mt-[128px] mb-[198px] z-10 flex flex-col gap-[60px]'}>
             <div className={'flex flex-col gap-[16px]'}>
                 <div className={'flex flex-col justify-center text-center items-center'}>
                     <h4 className={'jost-bold text-[48px] text-white'}>
@@ -24,7 +24,7 @@ const ExclusiveNFT = () => {
                     XYCoin is creating a one-of-a-kind way to experience NFTs.
                 </p>
             </div>
-            <div className={'w-full text-white'}>
+            <div className={'w-full -z-0 text-white'}>
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={1}
