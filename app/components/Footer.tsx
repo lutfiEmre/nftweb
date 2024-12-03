@@ -4,7 +4,7 @@ import logosvg from "@/public/logo.svg";
 
 const Footer = () => {
     return (
-        <div className={'flex flex-col pb-[60px] gap-[70px]'}>
+        <div className={'flex flex-col pb-[200px] lg:pb-[60px] gap-[30px]'}>
             <div className={'w-full flex mt-[100px] lg:flex-row flex-col items-center gap-8 lg:gap-2 justify-between'}>
                 <div className={'flex flex-col items-center lg:items-start gap-[40px]'}>
                     <Image width={317} height={43} src={logosvg} alt={'activ8earth'}/>
@@ -91,15 +91,15 @@ const Footer = () => {
                 </div>
             </div>
             <div className={'w-full flex lg:flex-row flex-col gap-4 justify-between items-center'}>
-                <div className={'flex flex-row items-center '}>
+                <div className={'flex flex-col sm:flex-row items-center '}>
                     <h6 className={'font-light cursor-pointer text-white text-[20px]'}>
                         Privacy Policy
                     </h6>
-                    <div className={'w-[1px] h-[10px] bg-white mx-8'}></div>
+                    <div className={'w-[1px] sm:flex hidden h-[10px] bg-white mx-8'}></div>
                     <h6 className={'font-light cursor-pointer text-white text-[20px]'}>
                        Terms of Service
                     </h6>
-                    <div className={'w-[1px] h-[10px] bg-white mx-8'}></div>
+                    <div className={'w-[1px] sm:flex hidden h-[10px] bg-white mx-8'}></div>
                     <h6 className={'font-light cursor-pointer text-white text-[20px]'}>
                         Whitepaper
                     </h6>

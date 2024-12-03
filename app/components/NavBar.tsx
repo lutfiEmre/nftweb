@@ -8,7 +8,6 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 
-
 const NavBar = () => {
     const [showBg, setShowBg] = useState<boolean>(false);
     useEffect(() => {
@@ -31,10 +30,16 @@ const NavBar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Smooth scroll animasyonu
+        });
+    }
     return (
         <>
             <div
+                id={"navbar"}
                 className={`flex z-50 flex-row sticky ${
                     showBg ? 'bg-violet3' : 'bg-transparent'
                 } pb-4 top-0 left-0 w-full justify-center hidden lg:flex  items-center lg:items-start lg:justify-start`}
@@ -93,7 +98,7 @@ const NavBar = () => {
             <div className={'lg:hidden z-50 fixed bottom-0 left-0 grid-y-4  h-[200px] sm:py-16   text-black flex w-full flex justify-start items-center flex-col'}>
                 <div className={'grid -mt-3 grid-cols-4 absolute top-12   left-0  z-50 sm:gap-14 w-full h-full sm:flex flex-wrap sm:flex-nowrap justify-center justify-items-center flex-row  items-center'}>
                     <div className={'absolute top-[-10px]'}>
-                        <div className={'flex flex-row gap-1'}>
+                        <div onClick={() => {scrollToTop()}} className={'flex cursor-pointer flex-row gap-1'}>
                             <motion.div
                                 animate={{
                                     rotate: [0, 90, 180, 270, 360], // 90 derece aralıklarla döndürme

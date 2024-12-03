@@ -32,7 +32,7 @@ const FutureMilestones = () => {
                 <div className={'  gap-[64px] flex flex-row '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
-                        <h6 className={'jost-semibold text-white text-[48px]'}>
+                        <h6 className={'jost-semibold    text-white text-[48px]'}>
                             01
 
                         </h6>
@@ -68,10 +68,10 @@ const FutureMilestones = () => {
                         }} className={'w-[4px] h-[169px] bg-[#FF00CC]'}></div>
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
-                        <h3 className={'jost-semibold text-white text-[36px]'}>
+                        <h3 className={'jost-semibold text-end   text-white text-[36px]'}>
                             June 12, 2025
                         </h3>
-                        <h6 className={'inter-semibold text-[18px] text-[#FF00CC]'}>
+                        <h6 className={'inter-semibold text-end   text-[18px] text-[#FF00CC]'}>
                             Community Growth
                         </h6>
                         <p className={'rubik-regular text-[16px] text-end  text-white text-opacity-90'}>
@@ -121,10 +121,10 @@ const FutureMilestones = () => {
                         }} className={'w-[4px] h-[169px] bg-[#FF00CC]'}></div>
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
-                        <h3 className={'jost-semibold text-white text-[36px]'}>
+                        <h3 className={'jost-semibold text-end   text-white text-[36px]'}>
                             Jan 01, 2026
                         </h3>
-                        <h6 className={'inter-semibold text-[18px] text-[#FF00CC]'}>
+                        <h6 className={'inter-semibold text-end   text-[18px] text-[#FF00CC]'}>
                             Scalability Solutions
                         </h6>
                         <p className={'rubik-regular text-end text-[16px]  text-white text-opacity-90'}>
@@ -172,10 +172,10 @@ const FutureMilestones = () => {
                         }} className={'w-[4px] h-[169px] bg-[#FF00CC]'}></div>
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
-                        <h3 className={'jost-semibold text-white text-[36px]'}>
+                        <h3 className={'jost-semibold text-end   text-white text-[36px]'}>
                             Dec 13, 2027
                         </h3>
-                        <h6 className={'inter-semibold text-[18px] text-[#FF00CC]'}>
+                        <h6 className={'inter-semibold text-end   text-[18px] text-[#FF00CC]'}>
                             Integration Partnerships
                         </h6>
                         <p className={'rubik-regular text-[16px] text-end  text-white text-opacity-90'}>
