@@ -38,7 +38,7 @@ const TurnLife = () => {
     };
 
     return (
-        <div className="min-h-[70vh] flex flex-col-reverse  mb-[100px] lg:flex-row justify-center items-center gap-[100px] xl:gap-[150px]  mt-[1vw] lg:mt-[1vw] 2xl:mt-[2vw]">
+        <div className="min-h-[70vh] flex flex-col-reverse  mb-[100px] lg:flex-row justify-center items-center gap-[100px] xl:gap-[150px]   lg:mt-[1vw] 2xl:mt-[2vw]">
             <div className="flex flex-col gap-[40px]">
                 <motion.h4
                     className="jost-bold leading-[1.2em] text-white sm:text-start text-center text-[64px] lg:text-[50px]"
