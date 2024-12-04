@@ -8,9 +8,16 @@ import FAQAccordion from "@/app/components/FAQAccordion";
 const FindYourAnswers = () => {
     return (
         <div id={"faq"} className={'w-full flex md:flex-row pb-16 relative flex-col text-white mt-[100px] justify-between '}>
-            <div className="absolute w-full h-[1200px] lg:h-full flex overflow-hidden items-center bottom-0 -z-10 top-0">
+            <div className="absolute w-full flex flex-col h-[1200px] lg:h-full flex overflow-hidden items-center bottom-0 gap-0 -z-10 top-0">
                 <Image
                     className="w-[900px] mx-auto mt-[150px] h-[400px]"
+                    width={679}
+                    height={679}
+                    src={gradientradial}
+                    alt=""
+                />
+                <Image
+                    className="w-[900px] rotate-[180deg] mx-auto     h-[400px]"
                     width={679}
                     height={679}
                     src={gradientradial}
