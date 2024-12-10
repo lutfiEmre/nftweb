@@ -43,15 +43,15 @@ const FutureMilestones = () => {
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
                         <h3 className={'jost-semibold text-white text-[36px]'}>
-                            Feb 03, 2025
+                            2023 H2
                         </h3>
                         <h6 className={'inter-semibold text-[18px] text-[#FF00CC]'}>
-                            Platform Launch
+                            The birth & transformation of the idea
+
                         </h6>
                         <p className={'rubik-regular text-[16px]  text-white text-opacity-90'}>
-                            Research the existing NFT platforms and blockchains to
-                            choose the most suitable one for your project (e.g.,
-                            Ethereum, Binance Smart Chain, Flow, etc.).
+                            Business plan development
+
                         </p>
                     </div>
                 </div>
@@ -69,15 +69,19 @@ const FutureMilestones = () => {
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
                         <h3 className={'jost-semibold text-end   text-white text-[36px]'}>
-                            June 12, 2025
+                            2024 H1
+
                         </h3>
                         <h6 className={'inter-semibold text-end   text-[18px] text-[#FF00CC]'}>
-                            Community Growth
+                            Research and Strategic Planning
+
                         </h6>
                         <p className={'rubik-regular text-[16px] text-end  text-white text-opacity-90'}>
-                            Hire or collaborate with blockchain developers to create
-                            the smart contract that governs your NFT coin. This
-                            smart contract will define the NFTs properties.
+                            Detailed market research on Web3 technology, gamification, and NFT integration has been conducted.
+
+                            User segmentation and target audience analysis have been completed.
+                            Competitive analysis has been carried out to identify differentiating features.
+
                         </p>
                     </div>
                 </div>
@@ -95,15 +99,21 @@ const FutureMilestones = () => {
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
                         <h3 className={'jost-semibold text-white text-[36px]'}>
-                            Aug 17, 2025
+                            2024 H2
+
                         </h3>
                         <h6 className={'inter-semibold text-[18px] text-[#FF00CC]'}>
-                            Enhanced Security
+                            V0 Launch and Initial User Experience
+
                         </h6>
                         <p className={'rubik-regular text-[16px]  text-white text-opacity-90'}>
-                            Hire or collaborate with blockchain developers to create
-                            the smart contract that governs your NFT coin. This
-                            smart contract will define the NFTs properties.
+                            Activity-based NFT rewards have been designed.
+                            Preparation of a free NFT collection for early users.
+                            <br/>
+                            <br/>
+                            Mini activities: Clicking logos/buttons, watching videos, listening to podcasts, reading articles, etc.
+                            A system where users earn rewards by participating in activities.
+
                         </p>
                     </div>
                 </div>
@@ -122,14 +132,21 @@ const FutureMilestones = () => {
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
                         <h3 className={'jost-semibold text-end   text-white text-[36px]'}>
-                            Jan 01, 2026
+                            2025 Q1-Q2
                         </h3>
                         <h6 className={'inter-semibold text-end   text-[18px] text-[#FF00CC]'}>
-                            Scalability Solutions
+                            User Growth and New Features
+
                         </h6>
                         <p className={'rubik-regular text-end text-[16px]  text-white text-opacity-90'}>
-                            Determine the total supply of your NFT coins and
-                            whether there will be any limited editions.
+                            Global Launch
+                            <br/>
+                            Partnership Agreements
+                            <br/>
+                            Expanding the international user base with multi-language support.
+                            <br/>
+                            Regional reward pools and local community events.
+
                         </p>
                     </div>
                 </div>
@@ -147,15 +164,21 @@ const FutureMilestones = () => {
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
                         <h3 className={'jost-semibold text-white text-[36px]'}>
-                            Mar 15, 2026
+                            2025 Q3
                         </h3>
                         <h6 className={'inter-semibold text-[18px] text-[#FF00CC]'}>
-                            Governance Implementation
+                            Ecosystem Strengthening and Monetization
+
                         </h6>
                         <p className={'rubik-regular text-[16px]  text-white text-opacity-90'}>
-                            Deploy your NFT smart contract on the chosen
-                            blockchain, ensuring it complies with security
-                            standards.
+                            Enabling brands to create tasks on the platform.
+                            <br/>
+                            Contributing to advertiser/user reward pools from ad revenues.
+                            <br/>
+                            Platform updates through community votes.
+                            <br/>
+                            Sponsorships for user-organized events.
+
                         </p>
                     </div>
                 </div>
@@ -173,7 +196,7 @@ const FutureMilestones = () => {
                     </div>
                     <div className={'w-[552px] mt-1 flex flex-col h-4'}>
                         <h3 className={'jost-semibold text-end   text-white text-[36px]'}>
-                            Dec 13, 2027
+                            2025 Q4
                         </h3>
                         <h6 className={'inter-semibold text-end   text-[18px] text-[#FF00CC]'}>
                             Integration Partnerships

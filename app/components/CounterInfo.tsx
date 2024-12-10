@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-
 const useCounter = (endValue: number, duration: number) => {
     const [count, setCount] = useState(0);
 
@@ -30,15 +29,14 @@ const CounterInfo = () => {
     const counters = [
         { value: 98, label: "Access Rate", suffix: "%" },
         { value: 1207, label: "Conversion Rate (CVR)", suffix: "%" },
-        { value: 557000, label: "Users", suffix: "" },
+        { value: 50000, label: "Users", suffix: "", blur: true },
         { value: 1.04, label: "Advertisement Volume", suffix: "B", prefix: "$" },
     ];
-
 
     const counts = [
         useCounter(98, 2),
         useCounter(1207, 2),
-        useCounter(557000, 2),
+        useCounter(50000, 2),
         useCounter(1.04, 2),
     ];
 
@@ -54,7 +52,11 @@ const CounterInfo = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <div className="flex flex-col items-center gap-[10px]">
-                        <h4 className="jost-semibold md:text-[48px] text-[36px] 3xl:text-[64px] text-white">
+                        <h4
+                            className={`jost-semibold md:text-[48px] text-[36px] 3xl:text-[64px] text-white ${
+                                counter.blur ? "blur-[0px]" : ""
+                            }`}
+                        >
                             {counter.prefix}
                             {counts[index].toLocaleString()}
                             {counter.suffix}

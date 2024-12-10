@@ -65,7 +65,7 @@ const TurnLife = () => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    <h6 className="rubik-medium text-[16px] text-white">Join to Activ8earth</h6>
+                    <a href={"https://activate-whitepaper.gitbook.io/activate-whitepaper"} target={"_blank"} className="rubik-medium text-[16px] text-white">Our White Papper</a>
                 </motion.div>
             </div>
 
