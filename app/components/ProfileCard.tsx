@@ -36,7 +36,7 @@ const ProfileCard = () => {
         },
         {
             img: { src: "/emre.svg", width: 290, height: 116, alt: "Emre" },
-            name: "Emre Lütfi",
+            name: "Emre Lutfi",
             jobTitle: "Senior Developer",
             socialMedia: [
                 { platform: "Telegram", icon: "/telegram-icon.svg", link: "https://t.me/username" },

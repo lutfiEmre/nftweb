@@ -110,10 +110,10 @@ const Footer = () => {
                     </span>
                     </h4>
                     <div className={'flex flex-col sm:flex-row gap-4'}>
-                        <a href={"https://emrelutfi.com"} target={"_blank"} className={'px-[40px] z-20 bg4 mt-[24px] cursor-pointer w-full text-center  sm:w-fit py-[12px] text-white rubik-medium lg:text-[16px] xl:text-[20px]'}>
+                        <a href={"https://t.me/activ8earth"} target={"_blank"} className={'px-[40px] z-20 bg4 mt-[24px] cursor-pointer w-full text-center  sm:w-fit py-[12px] text-white rubik-medium lg:text-[16px] xl:text-[20px]'}>
                             Join us on Telegram
                         </a>
-                        <a href={"https://emrelutfi.com"} target={"_blank"} className={'px-[40px] z-20 bg4 mt-[24px] cursor-pointer w-full text-center  sm:w-fit py-[12px] text-white rubik-medium lg:text-[16px] xl:text-[20px]'}>
+                        <a href={"https://discord.gg/w8vQNqvmC5"} target={"_blank"} className={'px-[40px] z-20 bg4 mt-[24px] cursor-pointer w-full text-center  sm:w-fit py-[12px] text-white rubik-medium lg:text-[16px] xl:text-[20px]'}>
                             Join on Discord
                         </a>
                     </div>

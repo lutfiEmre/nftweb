@@ -28,8 +28,8 @@ const FutureMilestones = () => {
                 <p className={'rubik-regular text-center text-white text-opacity-80 text-[20px]'}>Our Roadmap highlights key milestones, from platform launch and Web3 integration to ACT8 tokens and Activator Gems NFTs. Stay tuned for exciting updates!
                 </p>
             </div>
-            <div className={'flex flex-col gap-[90px] sm:gap-0  mt-[50px]'}>
-                <div className={'  gap-[64px] flex flex-row '}>
+            <div className={'flex flex-col gap-[50vw] sm:gap-[90px]  sm:gap-0  mt-[50px]'}>
+                <div className={'  gap-[30px] sm:gap-[64px]  flex flex-row '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
                         <h6 className={'jost-semibold    text-white text-[48px]'}>
@@ -55,7 +55,7 @@ const FutureMilestones = () => {
                         </p>
                     </div>
                 </div>
-                <div className={'  gap-[64px] flex flex-row-reverse '}>
+                <div className={'  gap-[30px] sm:gap-[64px]  flex flex-row-reverse '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
                         <h6 className={'jost-semibold text-white text-[48px]'}>
@@ -85,7 +85,7 @@ const FutureMilestones = () => {
                         </p>
                     </div>
                 </div>
-                <div className={'  gap-[64px] flex flex-row '}>
+                <div className={'  gap-[30px] sm:gap-[64px]  flex flex-row '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
                         <h6 className={'jost-semibold text-white text-[48px]'}>
@@ -117,7 +117,7 @@ const FutureMilestones = () => {
                         </p>
                     </div>
                 </div>
-                <div className={'  gap-[64px] flex flex-row-reverse '}>
+                <div className={'  gap-[30px] sm:gap-[64px]  flex flex-row-reverse '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
                         <h6 className={'jost-semibold text-white text-[48px]'}>
@@ -150,7 +150,7 @@ const FutureMilestones = () => {
                         </p>
                     </div>
                 </div>
-                <div className={'  gap-[64px] flex flex-row '}>
+                <div className={'  gap-[30px] sm:gap-[64px]  flex flex-row '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
                         <h6 className={'jost-semibold text-white text-[48px]'}>
@@ -182,7 +182,7 @@ const FutureMilestones = () => {
                         </p>
                     </div>
                 </div>
-                <div className={'  gap-[64px] flex flex-row-reverse '}>
+                <div className={'  gap-[30px] sm:gap-[64px]  flex flex-row-reverse '}>
                     <div className={'w-[552px] mt-1 hidden sm:flex flex-col h-4'}></div>
                     <div className={'flex flex-col items-center'}>
                         <h6 className={'jost-semibold text-white text-[48px]'}>
