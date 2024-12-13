@@ -43,29 +43,31 @@ const CounterInfo = () => {
     return (
         <div className="lg:px-[80px] 2xl:px-[160px] bg3 to-[#162447] grid justify-items-center gap-y-[50px] grid-cols-2 lg:flex justify-between lg:gap-[50px] 2xl:gap-[143px] flex-row py-[60px]">
             {counters.map((counter, index) => (
-                <motion.div
-                    key={index}
-                    className="flex flex-row gap-[60px]"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                >
-                    <div className="flex flex-col items-center gap-[10px]">
-                        <h4
-                            className={`jost-semibold md:text-[48px] text-[36px] 3xl:text-[64px] text-white ${
-                                counter.blur ? "blur-[0px]" : ""
-                            }`}
-                        >
-                            {counter.prefix}
-                            {counts[index].toLocaleString()}
-                            {counter.suffix}
-                        </h4>
-                        <h6 className="rubik-regular text-opacity-80 md:text-[16px] text-[14px] 3xl:text-[20px] text-white">
-                            {counter.label}
-                        </h6>
-                    </div>
-                </motion.div>
+                <div key={index} className="flex flex-row gap-[60px]">
+                    <motion.div
+
+                        initial={{opacity: 0, y: 20}}
+                        whileInView={{opacity: 1, y: 0}}
+                        viewport={{once: true}}
+                        transition={{duration: 0.8}}
+                    >
+                        <div className="flex flex-col items-center gap-[10px]">
+                            <h4
+                                className={`jost-semibold md:text-[48px] text-[36px] 3xl:text-[64px] text-white ${
+                                    counter.blur ? "blur-[0px]" : ""
+                                }`}
+                            >
+                                {counter.prefix}
+                                {counts[index].toLocaleString()}
+                                {counter.suffix}
+                            </h4>
+                            <h6 className="rubik-regular text-opacity-80 md:text-[16px] text-[14px] 3xl:text-[20px] text-white">
+                                {counter.label}
+                            </h6>
+                        </div>
+                    </motion.div>
+                </div>
+
             ))}
         </div>
     );
