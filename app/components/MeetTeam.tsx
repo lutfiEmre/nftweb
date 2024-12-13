@@ -1,6 +1,6 @@
 import React from 'react';
-
-import ProfileCard from "@/app/components/ProfileCard";
+// Update the import path
+import ProfileCard from "./ProfileCard";
 
 const MeetTeam = () => {
     return (
