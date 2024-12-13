@@ -2,12 +2,12 @@ import React from 'react';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from "next/image";
-import nft1 from '../../public/nft1.svg'
-import nft2 from '../../public/nft2.svg'
-import nft3 from '../../public/nft3.svg'
-import nft4 from '../../public/nft4.svg'
+import nft1 from '../../public/nft1.svg';
+import nft2 from '../../public/nft2.svg';
+import nft3 from '../../public/nft3.svg';
+import nft4 from '../../public/nft4.svg';
 
-const ExclusiveNFT = () => {
+const ExclusiveNFT: React.FC = () => {
     return (
         <div className={'mt-[128px] mb-[198px] z-10 flex flex-col gap-[60px]'}>
             <div className={'flex flex-col gap-[16px]'}>
