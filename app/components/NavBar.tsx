@@ -91,7 +91,7 @@ const NavBar = () => {
                 <Link href="https://app.activ8earth.com">
                     <div className={`${showBg && "hidden sm:flex"} lg:!flex sm:px-[33px] px-[24px]  cursor-pointer w-full text-center lg:w-fit py-[12px] sm:py-[16px] bg1`}>
                         <h6 className={'rubik-medium text-[14px] sm:text-[16px] text-white'}>
-                            Entire The World!
+                            Launch App
                         </h6>
                     </div>
                 </Link>
