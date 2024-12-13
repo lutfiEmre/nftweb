@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from "next/image";
-import worldsvg from '../../public/world.svg'
-import {motion} from "framer-motion";
+import worldsvg from '../../public/world.svg';
+import { motion, HTMLMotionProps } from "framer-motion";
 
-const ReachWorld = () => {
+const ReachWorld: React.FC<HTMLMotionProps<'div'>> = () => {
     return (
         <div className={'mt-[128px] flex flex-col lg:flex-row justify-center items-center gap-[80px]'}>
             <Image className={'w-[90vw] h-full  max-w-[250px] sm:max-w-[500px] rotate-animation md:w-[350px] lg:w-[765px] max-h-[500px] lg:h-[483px]'} width={765} height={483} src={worldsvg} alt={'world svg'}/>
