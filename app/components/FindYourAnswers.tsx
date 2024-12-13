@@ -2,7 +2,8 @@ import React from 'react';
 import questmark from '../../public/questmark.svg'
 import gradientradial from '../../public/gradientradial.svg'
 import Image from "next/image";
-import FAQAccordion from "@/app/components/FAQAccordion";
+// Update the import path
+import FAQAccordion from "./FAQAccordion";
 
 
 const FindYourAnswers = () => {
