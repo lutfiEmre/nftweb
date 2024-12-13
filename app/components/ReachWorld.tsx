@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const ReachWorld: React.FC = () => {
     return (
-        <div className={'mt-[128px] flex flex-col lg:flex-row justify-center items-center gap-[80px]'}>
+        <div className="mt-[128px] flex flex-col lg:flex-row justify-center items-center gap-[80px]">
             <Image className={'w-[90vw] h-full  max-w-[250px] sm:max-w-[500px] rotate-animation md:w-[350px] lg:w-[765px] max-h-[500px] lg:h-[483px]'} width={765} height={483} src={worldsvg} alt={'world svg'}/>
             <div className={'flex flex-col gap-[16px]'}>
                 <h3 className={'inter-semibold  text-center sm:text-start  text-[#FF00CC] text-[18px]'}>
