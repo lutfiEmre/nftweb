@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Activ8earth Website",
     description: "activate to live - activ8earth",
-    url: "https://activ8earth.vercel.app/",
+    url: "https://app.activ8earth.com/",
     images: [
       {
         url: "/preview-image.png",

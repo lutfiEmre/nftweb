@@ -88,11 +88,13 @@ const NavBar = () => {
                     </Link>
 
                 </div>
-                <div className={`${showBg && "hidden sm:flex"} lg:!flex sm:px-[33px] px-[24px]  cursor-pointer w-full text-center lg:w-fit py-[12px] sm:py-[16px] bg1`}>
-                    <h6 className={'rubik-medium text-[14px] sm:text-[16px] text-white'}>
-                        Entire The World!
-                    </h6>
-                </div>
+                <Link href="https://app.activ8earth.com">
+                    <div className={`${showBg && "hidden sm:flex"} lg:!flex sm:px-[33px] px-[24px]  cursor-pointer w-full text-center lg:w-fit py-[12px] sm:py-[16px] bg1`}>
+                        <h6 className={'rubik-medium text-[14px] sm:text-[16px] text-white'}>
+                            Entire The World!
+                        </h6>
+                    </div>
+                </Link>
             </div>
             </div>
             <div className={'lg:hidden z-50 fixed bottom-0 left-0 grid-y-4  h-[200px] sm:py-16   text-black flex w-full flex justify-start items-center flex-col'}>
