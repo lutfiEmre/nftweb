@@ -129,9 +129,9 @@ const Footer = () => {
                        Terms of Service
                     </h6>
                     <div className={'w-[1px] sm:flex hidden h-[10px] bg-white mx-8'}></div>
-                    <h6 className={'font-light cursor-pointer text-white text-[20px]'}>
+                    <a href={"https://activate-whitepaper.gitbook.io/activate-whitepaper"} target={"_blank"} className={'font-light cursor-pointer text-white text-[20px]'}>
                         Whitepaper
-                    </h6>
+                    </a>
 
                 </div>
                 <div className={'flex flex-row items-center '}>
