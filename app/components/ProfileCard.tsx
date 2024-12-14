@@ -149,8 +149,8 @@ const ProfileCard = () => {
                 navigation={true}
                 className="mySwiper"
             >
-                {teamMembers.map((member, index) => (
-                    <SwiperSlide key={index}>
+                <div className={'grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 xl:grid-cols-5 justify-items-stretch gap-6 align-middle'}>
+                    {teamMembers.map((member, index) => (
                         <div className="w-fit overflow-hidden rounded-[10px] h-[298px] flex flex-col">
                             <div className="bg-[#350332] w-full rounded-t-[10px] h-[50%]">
                                 <Image
@@ -161,14 +161,15 @@ const ProfileCard = () => {
                                     alt={member.img.alt}
                                 />
                             </div>
-                            <div className="bg-[#5F115A] gap-[8px] flex flex-col w-full justify-center items-center rounded-b-[10px] h-[70%]">
+                            <div
+                                className="bg-[#5F115A] gap-[8px] flex flex-col w-full justify-center items-center rounded-b-[10px] h-[70%]">
                                 <h6 className="text-white leading-7 text-center rubik-medium lg:text-[18px] xl:text-[24px]">
                                     {member.name}
                                 </h6>
                                 <h6 className="text-white text-center font-light text-[16px]">
                                     {member.jobTitle}
                                 </h6>
-                                <div className="mt-[12px] flex flex-row gap-[24px]">
+                                <div className="mt-[12px] flex flex-row gap-[12px] sm:gap-[24px]">
                                     {member.socialMedia.map((social, idx) => (
                                         <a
                                             key={idx}
@@ -188,8 +189,9 @@ const ProfileCard = () => {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                ))}
+
+                    ))}
+                </div>
             </Swiper>
         </div>
     );

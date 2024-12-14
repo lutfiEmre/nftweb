@@ -4,7 +4,7 @@ import NavBar from "@/app/components/NavBar";
 import gradientbro from "../public/gradientblur.svg";
 import Image from "next/image";
 import TurnLife from "@/app/components/TurnLife";
-import CounterInfo from "@/app/components/CounterInfo";
+
 import EarnFrom from "@/app/components/EarnFrom";
 import Container from "@/app/components/Container";
 import { motion } from "framer-motion";
@@ -16,6 +16,7 @@ import ExploreOurOffers from "@/app/components/ExploreOurOffers";
 import FindYourAnswers from "@/app/components/FindYourAnswers";
 import MeetTeam from "@/app/components/MeetTeam";
 import Footer from "@/app/components/Footer";
+import Interaction from "@/app/components/Interaction";
 
 const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
     const [ref, inView] = useInView({
@@ -59,7 +60,7 @@ export default function Home() {
 
 
             <SectionWithAnimation>
-                <CounterInfo />
+                <Interaction/>
             </SectionWithAnimation>
 
 
