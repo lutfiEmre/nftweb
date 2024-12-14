@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 const ProfileCard = () => {
     const teamMembers = [
@@ -138,20 +137,10 @@ const ProfileCard = () => {
 
     return (
         <div className="mt-[100px]">
-            <Swiper
-                spaceBetween={20}
-                slidesPerView={2}
-                breakpoints={{
-                    768: { slidesPerView: 3 },
-                    1024: { slidesPerView: 5 },
-                }}
-                pagination={{ clickable: true }}
-                navigation={true}
-                className="mySwiper"
-            >
+
                 <div className={'grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 xl:grid-cols-5 justify-items-stretch gap-6 align-middle'}>
                     {teamMembers.map((member, index) => (
-                        <div className="w-fit overflow-hidden rounded-[10px] h-[298px] flex flex-col">
+                        <div key={index} className="w-fit overflow-hidden rounded-[10px] h-[298px] flex flex-col">
                             <div className="bg-[#350332] w-full rounded-t-[10px] h-[50%]">
                                 <Image
                                     className="h-full object-cover"
@@ -192,7 +181,6 @@ const ProfileCard = () => {
 
                     ))}
                 </div>
-            </Swiper>
         </div>
     );
 };

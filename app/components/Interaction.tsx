@@ -8,7 +8,7 @@ const Interaction = () => {
                 COMMUNITY INTERACTION
             </h6>
             <h6 className={'jost-medium text-white text-center text-[16px] md:text-[24px] max-w-[60%]'}>
-                In the Activate Earth platform, the dynamics were driven by the community; the members initiate and perform the activities/ads, and with this, the community manages the economy. Community members who discover the potential of working with brands will increase interaction on the platform with these collaborations, and the community's benefits will grow.
+                In the Activate Earth platform, the dynamics were driven by the community; the members initiate and perform the activities/ads, and with this, the community manages the economy. Community members who discover the potential of working with brands will increase interaction on the platform with these collaborations, and the communitys benefits will grow.
 
             </h6>
         </div>
