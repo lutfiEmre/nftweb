@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import worldsvg from '../../public/world.svg';
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ReachWorld: React.FC = () => {
     return (
@@ -22,7 +23,7 @@ const ReachWorld: React.FC = () => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    <h6 className="rubik-medium text-[16px] text-white">Reach the World</h6>
+                    <Link href="https://app.activ8earth.com" className="rubik-medium text-[16px] text-white">Reach the World</Link>
                 </motion.div>
             </div>
         </div>
