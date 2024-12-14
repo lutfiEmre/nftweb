@@ -44,6 +44,7 @@ const NavBar = () => {
                     showBg ? 'bg-violet3' : 'bg-transparent'
                 } pb-4 top-0 left-0 w-full justify-center hidden lg:flex  items-center lg:items-start lg:justify-start`}
             >            <div className={'flex md:flex-col  z-50 pt-[30px] px-4 sm:pt-[20px]  w-fit lg:w-full flex-col gap-[20px] sm:gap-[50px] lg:flex-row justify-between items-center mx-[25px]'}>
+
                 <div className={'flex flex-row gap-1'}>
                     <motion.div
                         animate={{
@@ -119,7 +120,15 @@ const NavBar = () => {
                             <Image style={{ filter: "drop-shadow(0px 0px 4px white)" }} className={''} width={252} height={43} src={rightlogo} alt={'activ8earth'}/>
 
                         </div>
+                        <Link href="https://app.activ8earth.com">
+                            <div className={` lg:!flex sm:px-[33px] px-[24px]  cursor-pointer w-full text-center lg:w-fit py-[12px] sm:py-[16px] bg1`}>
+                                <h6 className={'rubik-medium text-[14px] sm:text-[16px] text-white'}>
+                                    Launch App
+                                </h6>
+                            </div>
+                        </Link>
                     </div>
+
                     <Link href={'#about'}>
                         <h6 className={'rubik-medium text-[20px] sm:text-[28px] text-white'}>
                             About

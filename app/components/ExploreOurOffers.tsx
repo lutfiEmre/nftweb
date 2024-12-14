@@ -122,7 +122,7 @@ const ExploreOurOffers = () => {
                         sustainable, interactive ecosystem!
                     </h6>
                 </div>
-                <a href={"https://emrelutfi.com"} target={"_blank"}
+                <a href={"https://t.me/activ8earth"} target={"_blank"}
                    className={'px-[40px] z-20 bg4 mt-[24px] cursor-pointer w-fit py-[12px] text-white rubik-medium text-[20px]'}>
                     Join us on Telegram
                 </a>
