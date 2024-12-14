@@ -16,7 +16,7 @@ import ExploreOurOffers from "@/app/components/ExploreOurOffers";
 import FindYourAnswers from "@/app/components/FindYourAnswers";
 import MeetTeam from "@/app/components/MeetTeam";
 import Footer from "@/app/components/Footer";
-import Head from "next/head";
+
 const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
     const [ref, inView] = useInView({
         threshold: 0.2,
@@ -38,9 +38,7 @@ const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
 export default function Home() {
     return (
         <div className="w-full relative z-10 h-full min-h-screen bg-violet3">
-            <Head>
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-            </Head>
+
             <NavBar/>
             <div className="relative min-h-screen w-full">
                 <Container>

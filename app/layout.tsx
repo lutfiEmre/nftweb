@@ -17,29 +17,31 @@ const geistMono = localFont({
 
 // Metadata tanımı
 export const metadata: Metadata = {
-  title: "Activ8earth Website",
-  description: "activate to live - activ8earth",
-  openGraph: {
+    metadataBase: new URL("https://app.activ8earth.com"),
     title: "Activ8earth Website",
     description: "activate to live - activ8earth",
-    url: "https://app.activ8earth.com/",
-    images: [
-      {
-        url: "/preview-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Activ8earth Website Preview",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Activ8earth Website",
-    description: "activate to live - activ8earth",
-    images: ["/preview-image.png"],
-  },
+    openGraph: {
+        title: "Activ8earth Website",
+        description: "activate to live - activ8earth",
+        url: "https://app.activ8earth.com/",
+        images: [
+            {
+                url: "/preview-image.png",
+                width: 1200,
+                height: 630,
+                alt: "Activ8earth Website Preview",
+            },
+        ],
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Activ8earth Website",
+        description: "activate to live - activ8earth",
+        images: ["/preview-image.png"],
+    },
 };
+
 
 export default function RootLayout({
                                      children,
@@ -48,9 +50,10 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="en">
-      <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
-      <link rel="alternate icon" href="/favicon.ico" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="/favicon.png" type="image/png"/>
+      <link rel="alternate icon" href="/favicon.ico" type="image/x-icon"/>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
