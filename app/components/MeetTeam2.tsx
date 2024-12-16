@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import ProfileCard from "@/app/components/ProfileCard";
 
 // Array of team members (using the same data as you provided)
 const teamMembers = [
