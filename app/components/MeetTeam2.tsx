@@ -133,8 +133,8 @@ const MeetTeam2 = () => {
                     className={'2xl:hidden grid lg:grid-cols-5 grid-cols-2 justify-items-center sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-7 gap-8'}>
                     {teamMembers.slice(0).map((member, index) => (
                         <div key={index} className={'flex flex-col items-center w-fit gap-[10px]'}>
-                            <div className={'w-[180px] h-[180px] rounded-[11px]'}>
-                                <Image className={'w-full rounded-[11px] h-full object-cover'} src={member.img.src}
+                            <div className={'sm:w-[180px] sm:h-[180px] rounded-[11px]'}>
+                                <Image className={'w-full rounded-[11px] h-[150px] sm:h-full object-cover'} src={member.img.src}
                                        width={150}
                                        height={150} alt={member.img.alt}/>
                             </div>
