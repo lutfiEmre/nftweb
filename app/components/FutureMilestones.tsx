@@ -19,7 +19,7 @@ const FutureMilestones = () => {
                 <div className={'flex flex-col justify-center text-center items-center'}>
                     <h4 className={'jost-bold text-[48px] text-white'}>
                         Future
-
+                        <br className={'sm:hidden flex'}/>
                         <span className={'text-[#FF00CC] sm:ml-4'}>
                        Milestones
                     </span>

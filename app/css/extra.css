@@ -20,6 +20,9 @@
     border-radius: 50px;
     border: var(--stroke-weight-2, 2px) solid var(--nftweb-framer-ai-magenta-fuchsia-40, rgba(253, 28, 238, 0.40));
 }
+.bg5{
+    box-shadow: 0px 5px 25px 0px #222F3E1A;
+}
 
 /* Rotate animation */
 @keyframes rotate {

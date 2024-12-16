@@ -10,13 +10,14 @@ import Container from "@/app/components/Container";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ReachWorld from "@/app/components/ReachWorld";
-import ExclusiveNFT from "@/app/components/ExclusiveNFT";
 import FutureMilestones from "@/app/components/FutureMilestones";
 import ExploreOurOffers from "@/app/components/ExploreOurOffers";
 import FindYourAnswers from "@/app/components/FindYourAnswers";
-import MeetTeam from "@/app/components/MeetTeam";
 import Footer from "@/app/components/Footer";
 import Interaction from "@/app/components/Interaction";
+import ACTXToken from "@/app/components/ACTXToken";
+import MeetTeam2 from "@/app/components/MeetTeam2";
+import ExclusiveNFT2 from "@/app/components/ExclusiveNFT2";
 
 const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
     const [ref, inView] = useInView({
@@ -66,13 +67,17 @@ export default function Home() {
 
             <Container>
                 <SectionWithAnimation>
+                   <ACTXToken/>
+                </SectionWithAnimation>
+
+                <SectionWithAnimation>
                     <EarnFrom />
                 </SectionWithAnimation>
                 <SectionWithAnimation>
                     <ReachWorld/>
                 </SectionWithAnimation>
                 <SectionWithAnimation>
-                    <ExclusiveNFT/>
+                    <ExclusiveNFT2/>
                 </SectionWithAnimation>
                 <SectionWithAnimation>
                     <FutureMilestones/>
@@ -84,7 +89,7 @@ export default function Home() {
                     <FindYourAnswers/>
                 </SectionWithAnimation>
                 <SectionWithAnimation>
-                    <MeetTeam/>
+                    <MeetTeam2/>
                 </SectionWithAnimation>
                 <SectionWithAnimation>
                     <Footer/>
