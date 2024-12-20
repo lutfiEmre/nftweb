@@ -39,7 +39,7 @@ const SectionWithAnimation = ({ children }: { children: React.ReactNode }) => {
 
 export default function Home() {
     return (
-        <div className="w-full relative z-10 h-full min-h-screen bg-violet3">
+        <div id={"home"} className="w-full relative z-10 h-full min-h-screen bg-violet3">
 
             <NavBar/>
             <div className="relative min-h-screen w-full">
