@@ -136,7 +136,7 @@ const Footer = () => {
                 </div>
                 <div className={'flex flex-row items-center '}>
                     <h6 className={'font-light cursor-pointer text-white text-[20px]'}>
-                        ©2024 - All Rights Reserved by Activate Earth v0.0.58
+                        ©2024 - All Rights Reserved by Activate Earth v0.0.60
                     </h6>
 
                 </div>
