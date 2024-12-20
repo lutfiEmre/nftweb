@@ -43,24 +43,44 @@ const FAQAccordion: React.FC = () => {
             <div className="mx-2 my-4 w-full md:w-full">
                 {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
                 <Accordion transition transitionTimeout={200}>
-                    <AccordionItem header="Q1: What is NFTWeb?">
-                        Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.
+                    <AccordionItem header="What is Activate Earth?">
+                        Activate Earth is an innovative platform where brands or individuals can create ads that reach a global audience.
                     </AccordionItem>
 
-                    <AccordionItem header="Q2: How does NFTWeb work?">
-                        Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.
+                    <AccordionItem header="What can be done in the application?">
+                        Individuals or brands create activities. Users can earn by completing these activities.
                     </AccordionItem>
 
-                    <AccordionItem header="Q3: What are the main features of NFT NFTWeb?">
-                        Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.
+                    <AccordionItem header="How can people benefit from this application?">
+                        Users creating activities within the application keep the ecosystem alive and can profit from monthly token rewards. Users who complete these activities can share the reward pools created and earn income.
                     </AccordionItem>
 
-                    <AccordionItem header="Q4: How can I acquire NFTWeb?">
-                        Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.
+                    <AccordionItem header="Who can create activities in the application?">
+                        Owners of Activator Gem NFTs can create activities.
                     </AccordionItem>
 
-                    <AccordionItem header="Q5: Is NFT XYCoin open to artists and creators?">
-                        Lorem ipsum dolor sit amet consectetur. Convallis cras placerat dignissim aliquam massa. Aliquet volutpat rhoncus in convallis consectetur. Cras adipiscing volutpat non hac enim odio enim.
+                    <AccordionItem header="How can Activate Earth users participate in activities?">
+                        Users can participate by holding tokens released by the platform in their web3 wallets.
+                    </AccordionItem>
+
+                    <AccordionItem header="What is the reward program offered to users of the application?">
+                        It offers users the opportunity to earn income by systematically distributing monthly token rewards to activity creators and enhancing their activities. Activity participants can share the reward pools of the activities they complete for different experiences.
+                    </AccordionItem>
+
+                    <AccordionItem header="What are the advantages of NFTs?">
+                        Each piece in the Activator Gem NFT Collection will enable the use to create in-app activity/reward pools and benefit from the creative rewards distributed within the application. Additionally, whitelist priority will be provided in the airdrop event.
+                    </AccordionItem>
+
+                    <AccordionItem header="Are there advertising or sponsorship opportunities on the Activate Earth platform?">
+                        Welcome to a platform where such opportunities are unlimited, as the operation of the application will be based on experiential advertising campaigns, unlike other platforms.
+                    </AccordionItem>
+
+                    <AccordionItem header="What are the partnership signing processes with the platform?">
+                        Activate Earth always aims to exist as an application for the benefit of brand-user-community. Processes may vary to determine priorities in line with this goal.
+                    </AccordionItem>
+
+                    <AccordionItem header="Airdrop">
+                        With the launch of the application, we will make an airdrop event to our first users. You can follow the terms, rules, and announcements about this on our social media accounts.
                     </AccordionItem>
                 </Accordion>
             </div>

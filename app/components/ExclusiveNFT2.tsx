@@ -51,9 +51,6 @@ const ExclusiveNFT2 = () => {
                         <span className="text-[#FF00CC] sm:ml-4">Collection</span>
                     </h4>
                 </div>
-                <p className="rubik-regular lg:text-start text-center text-white text-opacity-80 text-[20px]">
-                    XYCoin is creating a one-of-a-kind way to experience NFTs.
-                </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-[40px] w-full">
                 {cardData.map((card, index) => (

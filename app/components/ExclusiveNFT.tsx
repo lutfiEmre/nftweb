@@ -20,9 +20,7 @@ const ExclusiveNFT: React.FC = () => {
                     </span>
                     </h4>
                 </div>
-                <p className={'rubik-regular text-center text-white text-opacity-80 text-[20px]'}>
-                    XYCoin is creating a one-of-a-kind way to experience NFTs.
-                </p>
+
             </div>
             <div className={'w-full -z-0 text-white'}>
                 <Swiper
