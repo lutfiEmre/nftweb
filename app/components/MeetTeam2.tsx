@@ -21,7 +21,7 @@ const teamMembers = [
     {
         img: { src: "/emre.svg", width: 290, height: 116, alt: "Emre" },
         name: "Emre Lutfi",
-        jobTitle: "Senior Developer",
+        jobTitle: "Front-End Lead",
     },
     {
         img: { src: "/deniz.svg", width: 290, height: 116, alt: "Deniz" },
@@ -29,45 +29,37 @@ const teamMembers = [
         jobTitle: "Data Scientist",
     },
     {
-        img: { src: "/oktay.svg", width: 290, height: 116, alt: "Oktay" },
-        name: "Oktay Çavuşoğlu",
-        jobTitle: "Marketing Lead",
+        img: { src: "/burakblockchain.svg", width: 290, height: 116, alt: "Oktay" },
+        name: "Burak Ekinci",
+        jobTitle: "Blockchain Developer",
     },
     {
-        img: { src: "/svetlena.svg", width: 290, height: 116, alt: "Svetlana" },
-        name: "Svetlana Ryzhova",
-        jobTitle: "Community Management",
-    },
-    {
-        img: { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKw1aBDR4wCURivhIBuUE8jm4NQe0zLiDY4g&s", width: 290, height: 116, alt: "Sude" },
-        name: "Sude Akarsu",
-        jobTitle: "Online Communications Director",
-    },
-    {
-        img: { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKw1aBDR4wCURivhIBuUE8jm4NQe0zLiDY4g&s", width: 290, height: 116, alt: "Doğuş" },
-        name: "Doğuş Coşkun",
-        jobTitle: "Financial Analyst",
-    },
-    {
-        img: { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKw1aBDR4wCURivhIBuUE8jm4NQe0zLiDY4g&s", width: 290, height: 116, alt: "Güney" },
-        name: "Güney Gürışık",
-        jobTitle: "Financial Management",
-    },
-    {
-        img: { src: "/eren.svg", width: 290, height: 116, alt: "Eren" },
+        img: { src: "/erenerdem.png", width: 290, height: 116, alt: "Svetlana" },
         name: "Eren Erdem",
         jobTitle: "Legal Advisor",
     },
     {
-        img: { src: "/buke.svg", width: 290, height: 116, alt: "Büke" },
+        img: { src: "/buke.svg", width: 290, height: 116, alt: "Sude" },
         name: "Büke Özer",
         jobTitle: "Art Director",
     },
     {
-        img: { src: "/betul.svg", width: 290, height: 116, alt: "Betül" },
+        img: { src: "/betultugran.png", width: 290, height: 116, alt: "Doğuş" },
         name: "Betül Tuğran",
         jobTitle: "Marketing Specialist",
     },
+    {
+        img: { src: "/dogus.png", width: 290, height: 116, alt: "Güney" },
+        name: "Doğuş Çoşkun",
+        jobTitle: "Financial Manager",
+    },
+    {
+        img: { src: "/svetlena.png", width: 290, height: 116, alt: "Eren" },
+        name: "Svetlena Ryzhova",
+        jobTitle: "Community Manager",
+    },
+
+
 ];
 
 const MeetTeam2 = () => {
@@ -110,7 +102,7 @@ const MeetTeam2 = () => {
 
                     </div>
                     <div
-                        className={'grid justify-items-center w-fit lg:grid-cols-5 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-6 gap-8'}>
+                        className={'grid justify-items-center w-fit lg:grid-cols-5 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-4 gap-8'}>
                         {teamMembers.slice(7).map((member, index) => (
                             <div key={index} className={'flex flex-col items-center w-fit gap-[10px]'}>
                                 <div className={'w-[180px] h-[180px] rounded-[11.75px]'}>
